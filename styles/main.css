@@ -1,0 +1,269 @@
+@charset "utf-8";
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+body  {
+	font: 100% Verdana, Arial, Helvetica, sans-serif;
+	background: #003868;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	color: #666666;
+}
+
+.AzPStwoCol #container {
+	width: 800px;
+	background: #FFFFFF;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+} 
+
+.AzPStwoCol #header {
+	background: #FFFFFF;
+	padding: 0 10px 0 20px;   
+} 
+.AzPStwoCol #header h1 {
+	margin: 0; 
+	padding: 5px 0 10px; 
+}
+.AzPStwoCol .title {
+	margin: 0;
+	padding: 10px 5px 10px 0;
+	font-size: 25px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	color: #000080;
+}
+.AzPStwoCol .divider-title {
+	color: #000080;
+	vertical-align: text-top;
+	font: 100 30px Helvetica;
+}
+
+.AzPStwoCol .subtitle { 
+    font-size: 15px; 
+    font-family:  "Trebuchet MS"; 
+    color: #000080; 
+}
+#header  #title_left {
+	margin-top: 15px;
+	float: left;
+	border-width: 1px;
+}
+#header  #title_right {
+	margin-top: 10px;
+	float: right;
+/*	margin-bottom: 7px;*/
+}
+#header .azLogo {
+	vertical-align: 20%;
+}
+.headernav {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	color: #666666;
+	text-decoration: none;
+	padding-right: 60px;
+}
+
+.headernav  a {
+     font-family: "Trebuchet MS";
+     font-size: 11px; 
+     color: #666666;
+     text-decoration: none;
+}
+.headernav  a:hover {
+     font-family: "Trebuchet MS";
+     font-size: 11px; 
+     color: #ff7800;
+     text-decoration: none;
+}
+.AzPStwoCol #bannerandnav {
+	margin-bottom: 15px;
+}
+.AzPStwoCol .banner {
+	margin: 0px;
+	padding: 0px;
+}
+
+.AzPStwoCol #sidebar1 {
+	float: left;
+	width: 175px;
+	background: #FFFFFF url(../images/menu_sidebar.jpg) no-repeat left top;
+	margin: 0px;
+	padding: 0px;
+}
+.AzPStwoCol #sidebar1 h3 {
+	color: #074e99;
+	font: 800 11px/1.7 "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px 0px 0px 7px;
+}
+
+
+.leftnav {
+	color: #666666;
+	text-decoration: none;
+	list-style: none;
+	padding-left: 15px;
+	font: 11px/1.7 "Trebuchet MS";
+}
+.leftnav a {
+     font-family: "Trebuchet MS";
+     font-size: 11px; 
+     color: #666666;
+     text-decoration: none;
+}
+.leftnav a:hover {
+     font-family: "Trebuchet MS";
+     font-size: 11px; 
+     color: #ff7800;
+     text-decoration: none;
+}
+.leftactive {
+     font-family: "Trebuchet MS";
+     font-size: 11px; 
+     color: #ff9000;
+     text-decoration: none;
+}
+
+.AzPStwoCol #mainContent {
+	margin: 0 0 0 175px; 
+	padding: 0px 20px 15px; 
+	background: url(../images/content_divider.jpg) no-repeat left top;
+} 
+.AzPStwoCol  #mainContent  h1 {
+	color: #000080;
+	font: normal 15px/1 "Trebuchet MS";
+	padding: 0px 0px 0px 5px;
+	border-left: 2px solid #FF9000;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+#mainContent table h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #046dc8;
+	text-decoration: none;
+	font-weight: bold;
+	}
+#mainContent table p {
+	padding-bottom: 50px;
+}
+
+.fltrt { 
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+
+.address {
+	font: 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	padding-bottom: 10px;
+}
+.contact {
+	font: 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+.contactpic {
+	width: 130px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	padding-top: 8px;
+}
+#mainContent  a:link {
+     color: #666666;
+}
+#mainContent  a:visited {
+	color: #666666;
+}
+#mainContent a:hover {
+     color: #ff7800;
+}
+#mainContent a:active {
+	color: #ff7800;
+}
+
+
+.AzPStwoCol  #mainContent h3 {
+	color: #FF6600;
+	font-size: 12px;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+
+.AzPStwoCol   #mainContent  h4 {
+	color: #074e99;
+	font: 800 11px/1.7 "Trebuchet MS", Helvetica, sans-serif;
+}
+.AzPStwoCol #mainContent h5 {
+	color: #585858;
+	font: normal 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+}
+
+.AzPStwoCol #mainContent p {
+	font: 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	padding-bottom: 10px;
+}
+.AzPStwoCol    #mainContent    .h1line2  {
+	font-size: 15px;
+	font-family:  "Trebuchet MS";
+	color: #000080;
+	padding-bottom: 10px;
+}
+.AzPStwoCol  #mainContent #homeul {
+	font-size: 12px;
+}
+.AzPStwoCol #mainContent ul {
+	font: 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	color: #666666;
+	padding-bottom: 10px;
+	list-style: disc outside;
+	padding-left: 40px;
+}
+
+.AzPStwoCol #mainContent table p {
+	font: 11px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	margin-bottom: 15px;
+}
+
+.AzPStwoCol #footer {
+	padding: 5px 10px 5px 20px; 
+	background:#137DB7;
+} 
+.AzPStwoCol  #footer p {
+	font-family: Trebuchet MS;
+	font-size: 11px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-left: 500px;
+}
+
+#mainContent .successstories {
+	background: url(../images/icon_casestudies.gif) no-repeat left 2px;
+	padding-left: 40px;
+	padding-bottom: 10px;
+	font: 12px/1.5 Verdana, Arial, Helvetica, sans-serif;
+	color: #333333;
+	padding-top: 15px;
+	margin-top: 15px;
+}
